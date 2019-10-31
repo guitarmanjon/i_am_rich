@@ -15,6 +15,14 @@ void main() {
                 NetworkImage('https://www.w3schools.com/w3css/img_lights.jpg'),
           ),
         ),
+        bottomNavigationBar: BottomNavigationBar(
+          items: const <BottomNavigationBarItem>[
+            BottomNavigationBarItem(
+                icon: Icon(Icons.home), title: Text('home')),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.school), title: Text('school')),
+          ],
+        ),
       ),
     ),
   );
